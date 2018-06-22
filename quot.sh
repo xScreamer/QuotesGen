@@ -3,13 +3,13 @@ a="echo"
 clear
 figlet QuotesGen | lolcat
 sleep 0.8
-$a "  made with \033[31;5m ❤ \033[37;1m by \033[36;1m NTRVanila"
+$a "  made with \033[31;5m ❤ \033[37;1m by \033[36;1m Thisforyou"
 $a "\033[93;1m"
 sleep 1
 $a "++++++++++++++++++++++++++++++++++++++"
 $a ""
 $a "Author : NTRVanila"
-$a "Github : https://github.com/NTRVanila"
+$a "Github : https://github.com/Thisforyou"
 $a "Team   : BlackHole Security"
 $a "Fb     : facebook.com/rahyd.meleleh"
 $a "Contact: +6281223897972"
