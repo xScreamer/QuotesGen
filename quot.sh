@@ -31,9 +31,9 @@ $a ""
 sleep 1
 $a "  bagaimana perasaanmu sekarang sayang? ketikkan dibawah ya"
 $a ""
-read mrrm
+read thisforyou
 $a "\033[30;1m"
-if [ $mrrm = sedih ] || [ $mrrm = sedih ]
+if [ $thisforyou = sedih ] || [ $thisforyou = sedih ]
 then
 clear
 figlet Sedih | lolcat
@@ -131,7 +131,7 @@ $a "\033[35;1m"
 $a "apa definisi tersakiti, "
 $a "selain melihatmu tertawa dengan yg lain"
 fi
-if [ $mrrm = senang ] || [ $mrrm = senang ]
+if [ $thisforyou = senang ] || [ $thisforyou = senang ]
 then
 clear
 figlet Senang | lolcat
@@ -141,7 +141,7 @@ $a "\033[37;1m"
 $a back to menu in 5 sec.
 sleep 4
 fi
-if [ $mrrm = autis ] || [ $mrrm = autis ]
+if [ $thisforyou = autis ] || [ $thisforyou = autis ]
 then
 clear
 figlet Autis | lolcat
@@ -152,7 +152,7 @@ $a back to menu in 5 sec.
 sleep 4
 sh quot.sh
 fi
-if [ $mrrm = link ] || [ $mrrm = link ]
+if [ $thisforyou = link ] || [ $thisforyou = link ]
 then
 clear
 figlet LinkToolsIG | lolcat
