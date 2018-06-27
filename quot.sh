@@ -3,13 +3,13 @@ a="echo"
 clear
 figlet QuotesGen | lolcat
 sleep 0.8
-$a "  made with \033[31;5m ❤ \033[37;1m by \033[36;1m Thisforyou"
+$a "  made with \033[31;5m ❤ \033[37;1m by \033[36;1m xScreamer"
 $a "\033[93;1m"
 sleep 1
 $a "++++++++++++++++++++++++++++++++++++++"
 $a ""
 $a "Author : NTRVanila"
-$a "Github : https://github.com/Thisforyou"
+$a "Github : https://github.com/xScreamer"
 $a "Team   : BlackHole Security"
 $a "Fb     : facebook.com/rahyd.meleleh"
 $a "Contact: +6281223897972"
@@ -31,9 +31,9 @@ $a ""
 sleep 1
 $a "  bagaimana perasaanmu sekarang sayang? ketikkan dibawah ya"
 $a ""
-read thisforyou
+read screamer
 $a "\033[30;1m"
-if [ $thisforyou = sedih ] || [ $thisforyou = sedih ]
+if [ $screamer = sedih ] || [ $screamer = sedih ]
 then
 clear
 figlet Sedih | lolcat
@@ -131,7 +131,7 @@ $a "\033[35;1m"
 $a "apa definisi tersakiti, "
 $a "selain melihatmu tertawa dengan yg lain"
 fi
-if [ $thisforyou = senang ] || [ $thisforyou = senang ]
+if [ $screamer = senang ] || [ $screamer = senang ]
 then
 clear
 figlet Senang | lolcat
@@ -141,7 +141,7 @@ $a "\033[37;1m"
 $a back to menu in 5 sec.
 sleep 4
 fi
-if [ $thisforyou = autis ] || [ $thisforyou = autis ]
+if [ $screamer = autis ] || [ $screamer = autis ]
 then
 clear
 figlet Autis | lolcat
@@ -152,7 +152,7 @@ $a back to menu in 5 sec.
 sleep 4
 sh quot.sh
 fi
-if [ $thisforyou = link ] || [ $thisforyou = link ]
+if [ $screamer = link ] || [ $screamer = link ]
 then
 clear
 figlet LinkToolsIG | lolcat
